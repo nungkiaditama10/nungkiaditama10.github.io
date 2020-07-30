@@ -1,0 +1,36 @@
+body {
+    background-image: url(bg.jpg);
+    color: white;
+}
+
+fieldset {
+    border: 1px solid #DDDDDD;
+    display: inline-block;
+    font-size: 14px;
+    padding: 3em;
+}
+
+.kiri {
+    width: 50%;
+    height: 100px;
+    margin-top: 5cm;
+    float: left;
+}
+
+.kanan {
+    width: 50%;
+    height: 100px;
+    margin-top: 2cm;
+    float: right;
+}
+
+.h2 {
+    font-size: 31px;
+    -webkit-text-stroke: 1px black; 
+}
+
+.a{
+    font-size: 26px;
+    -webkit-text-stroke: 0.1px black; 
+    text-shadow: black;
+}

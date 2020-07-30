@@ -1,0 +1,18 @@
+.abs-center-x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bg-main {
+  background-color: #2D3E50;
+}
+
+.img-ava {
+  border-radius: 100%;
+}
+
+footer {
+  height: 100px;
+  padding: 40px;
+}

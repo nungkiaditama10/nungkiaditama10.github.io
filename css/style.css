@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 25px 100px;
+	background-color: #2C3E50;
+	position: sticky;
+	top: 0;
+}
+
+.nav-menu {
+	list-style: none;
+  display: flex;
+  color: #FFFFFF;
+}
+
+.nav-menu li {
+margin: 0 9px;
+font-family: Georgia, serif;;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+.flex {
+	display: flex;
+}
+
+.nav-menuh3  {
+margin: 0 8px;
+font-family: Arial, serif;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+.img {
+	width: 63px;
+	height: 57px;
+	border-radius: 24px;	
+}
+
+.link{
+      font-size: 17px;
+      color: white;
+      text-decoration: none;
+}
+
+.link:hover{
+	color: red;
+}
+.link:link{
+	color: blue;
+}
+.link:active{
+	color: green;
+}
+.link:visited{
+	background: yellow;
+}
+
+.indicator {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.indicator span {
+  width: 75px;
+  height: 5px;
+  background: gray;
+  margin: 0 8px;
+}
+
+.paragraf {
+	font-family: Georgia, serif;;
+	font-style:;
+	font-size: 17px;
+	color: white;
+}
+
+.garis {
+	display: flex;
+	justify-content: 
+	width: 75px;
+	height: 5px;
+	background: black;
+	margin: 0 20px;
+}
+
+.judul {
+  display: flex;
+  align-items: center;
+}
+
+.judul-garis {
+  width: 100%;
+  height: 3px;
+  background: gray;
+  margin: 0 10px;
+}
+
+.judul-teks {
+  padding: 0 0px;
+  font-size: 16px;
+}
+
+.border {
+	width: 160px;
+	height: 224px;
+	margin-left: 30px;
+	border-width : 3px;
+	border-style : solid;
+	border-color : black;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.kotak{
+	display: block;
+	text-decoration: none;
+	width: 78px;
+  margin-top: 10px;
+  padding: 8px 24px;
+  background: #E67E22;
+  color: white;
+}
